@@ -1,6 +1,6 @@
 function cuenta() {
 
-    let limite = 50;
+    let limite = 150;
     let resultado = "";
 
     function cuentaPorValor() {

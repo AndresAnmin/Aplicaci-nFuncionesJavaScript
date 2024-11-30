@@ -1,19 +1,19 @@
 function funcionPrincipal() {
-    let a = 10;
-    let b = 8;
+    let x = 10;
+    let y = 8;
     let resultado = ""; 
 
     
     function permuta() {
-        resultado += "El valor de a es: " + a + "<br>";
-        resultado += "El valor de b es: " + b + "<br>";
+        resultado += "El valor de a es: " + x + "<br>";
+        resultado += "El valor de b es: " + y + "<br>";
     
-        let NumeroTemporal = a;
-        a = b;
-        b = NumeroTemporal;
+        let NumeroTemporal = y;
+        x = y;
+        y = NumeroTemporal;
     
-        resultado += "El nuevo valor de a es: " + a + "<br>";
-        resultado += "El nuevo valor de b es: " + b + "<br>";
+        resultado += "El nuevo valor de a es: " + x + "<br>";
+        resultado += "El nuevo valor de b es: " + y + "<br>";
     
     }
     permuta();

@@ -3,12 +3,12 @@ function verificarNumero() {
     let resultado = document.getElementById("resultado");
 
     if (isNaN(numero)) {
-        resultado.innerHTML = "Por favor, ingresa un número válido.";
+        resultado.innerHTML = "Por favor, ingresa un numero valido.";
     } else if (numero > 0) {
-        resultado.innerHTML = "El número es positivo.";
+        resultado.innerHTML = "El numero es positivo.";
     } else if (numero < 0) {
-        resultado.innerHTML = "El número es negativo.";
+        resultado.innerHTML = "El numero es negativo.";
     } else {
-        resultado.innerHTML = "El número es nulo.";
+        resultado.innerHTML = "El nnmero es nulo.";
     }
 }
