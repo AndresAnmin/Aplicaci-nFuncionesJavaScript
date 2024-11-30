@@ -8,7 +8,7 @@ function funcionPrincipal() {
         resultado += "El valor de a es: " + x + "<br>";
         resultado += "El valor de b es: " + y + "<br>";
     
-        let NumeroTemporal = y;
+        let NumeroTemporal = x;
         x = y;
         y = NumeroTemporal;
     
